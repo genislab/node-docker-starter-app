@@ -9,4 +9,4 @@ jobs:
     - name: Build
       uses: docker/build-push-action@v1
       with:
-        push: false
+        push: true
